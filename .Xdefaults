@@ -1,0 +1,102 @@
+! Xorg cursor
+Xcursor*theme : Neutral_Plus
+
+! Misc settings
+URxvt*scrollBar : false
+URxvt*skipScroll : true
+URxvt*jumpScroll : true
+URxvt*saveLines : 4096
+URxvt*cursorBlink : false
+URxvt*cursorUnderline : true
+URxvt*pointerBlank : true
+URxvt*urgentOnBell : true
+URxvt*visualBell : true
+URxvt*skipBuiltinGlyphs : false
+
+! Fonts
+URxvt*font : \
+xft:tewi:pixelsize=8, \
+xft:Fixed, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-50-iso8859-1, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-50-jisx0201.1976-0, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-100-jisx0208.1983-0, \
+xft:Loli Gothic:pixelsize=10
+
+URxvt*boldFont : \
+xft:tewi:pixelsize=8, \
+xft:Fixed, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-50-iso8859-1, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-50-jisx0201.1976-0, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-100-jisx0208.1983-0, \
+xft:Loli Gothic:pixelsize=10
+
+URxvt*italicFont : \
+xft:tewi:pixelsize=8, \
+xft:Fixed, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-50-iso8859-1, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-50-jisx0201.1976-0, \
+-misc-fixed-medium-r-normal--10-90-75-75-c-100-jisx0208.1983-0, \
+xft:Loli Gothic:pixelsize=10
+
+URxvt*boldItalicFont : \
+xft:tewi:pixelsize=8, \
+-misc-fixed-bold-r-normal--10-90-75-75-c-50-iso8859-1, \
+-misc-fixed-bold-r-normal--10-90-75-75-c-100-jisx0208.1983-0, \
+xft:Loli Gothic:pixelsize=10
+
+URxvt*intensityStyles : true
+
+Xft*autohint : 0
+Xft*lcdfilter : lcddefault
+Xft*hintstyle : hintfull
+Xft*hinting : 1
+Xft*antialias : 1
+Xft*dpi : 96
+Xft*rgba : rgb
+
+! Extensions
+URxvt*perl-ext-common : default,matcher
+!,vtwheel
+URxvt*url-launcher : firefox
+URxvt*matcher*button : 1
+URxvt*tabbed*new-button : no
+URxvt*tabbed*autohide : no
+URxvt*tabbed*title : yes
+URxvt*internalBorder : 1
+
+!dark
+!light
+
+!!Colors
+!default
+URxvt*foreground: #cbc6cc
+URxvt*.depth: 32
+URxvt*.background: rgba:1111/1111/1111/dddd
+!URxvt*background: #19171a
+!Black
+URxvt*color0:             #505152
+URxvt*color8:             #7C7D7E
+!Red
+URxvt*color1:             #B63F53
+URxvt*color9:             #E8909B
+!Green
+URxvt*color2:             #51997A
+URxvt*color10:            #9EDCBB
+!Yellow
+URxvt*color3:             #B27B42
+URxvt*color11:            #DCC58F
+!Blue
+URxvt*color4:             #5C95B3
+URxvt*color12:            #A7C8D4
+!Magenta
+URxvt*color5:             #B85A86
+URxvt*color13:            #D9A4C8
+!Cyan
+URxvt*color6:             #83A6A7
+URxvt*color14:            #BBD7D2
+!White
+URxvt*color7:             #A4A6A7
+URxvt*color15:            #E8E6E4
+!etc...
+URxvt*color16: #363436
+URxvt*color234: #1c1a1c
