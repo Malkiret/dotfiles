@@ -1,8 +1,7 @@
 /* This is some modification of ahoka's theme.
 Needs 'tewi' font, by neeee <https://github.com/neeee/tewi-font>
-This is supposed to work with GNU/Linux, but maybe it can work with Windows.Just try to get some converted font or use proggy_fonts.
-Also, this is meant for bright GTK themes, but should work on some dark 
-greyish tones. Feel free to use it as you like */
+This is supposed to work with GNU/Linux, but maybe it can work with Windows.Just try to get some converted font or use proggy_fonts (Remember to change 'font-family' declaration if you do that).
+Also, this is meant for bright GTK themes, but should work on some dark greyish tones. Feel free to use it as you like */
 
 /* HIDDEN ELEMENTS */
     #identity-box,
