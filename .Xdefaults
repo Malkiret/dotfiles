@@ -71,7 +71,7 @@ URxvt*internalBorder : 1
 !default
 URxvt*foreground: #cbc6cc
 URxvt*.depth: 32
-URxvt*.background: rgba:1111/1111/1111/dddd
+URxvt*.background: rgba:1111/1111/1111/8888
 !URxvt*background: #19171a
 !Black
 URxvt*color0:             #505152
